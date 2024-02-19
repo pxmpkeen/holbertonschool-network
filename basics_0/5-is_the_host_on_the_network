@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Pings passed argument
+#Bash script which pings IP addr with passed arg
 
 if [ "$#" -lt 1 ]; then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
